@@ -64,7 +64,6 @@ i = 1
 for item in list_of_items:
     items[item] = i
     i += 1
-items
 
 
 # In[5]:
@@ -78,7 +77,6 @@ for item in items:
             arr[i] = 1
         i += 1
     df[item] = arr
-df.head()
 
 
 # # 2. Input Support & Confidence
