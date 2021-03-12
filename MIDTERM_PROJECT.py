@@ -129,7 +129,6 @@ count_dict = {}
 for item in list_of_items:
     if np.sum(df[item]) >= min_support:
         count_dict[item] = np.sum(df[item])
-set(count_dict.keys())
 
 
 # In[10]:
